@@ -35,7 +35,7 @@ const App = () => {
             <p> {fullName.phone} </p>
             <p>{fullName.writeSomething}</p>
 
-            //add paragraph or heading here
+            {/* add paragraph or heading here */}
 
             <input 
               type="text" 
@@ -69,7 +69,7 @@ const App = () => {
               onChange={inputEvent} 
               value={fullName.writeSomething} />
 
-              //add input button here
+              {/* add input button here */}
 
             <button type="submit" >Submit</button>
           </div>
