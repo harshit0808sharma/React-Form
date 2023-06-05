@@ -6,10 +6,8 @@ const App = () => {
     lname : "",
     email : "",
     phone : "",
-
-    //add key here
-
     writeSomething : "",
+    decription: "",
   });
   const inputEvent = (event) => {
       const {value, name} = event.target;
@@ -34,7 +32,7 @@ const App = () => {
             <p>{fullName.email}</p>
             <p> {fullName.phone} </p>
             <p>{fullName.writeSomething}</p>
-
+            <p>{fullName.decription}</p>
             {/* add paragraph or heading here */}
 
             <input 
@@ -68,6 +66,12 @@ const App = () => {
               name="writeSomething" 
               onChange={inputEvent} 
               value={fullName.writeSomething} />
+            <input 
+              type="text" 
+              placeholder="description" 
+              name="description" 
+              onChange={inputEvent} 
+              value={fullName.decription} />
 
               {/* add input button here */}
 
