@@ -1,5 +1,6 @@
 import React from "react";
-import SearchBar from "./SearchBar"; // since it's in the same folder
+import './App.css'
+import SearchBar from "./SearchBar";
 
 function App() {
   return (
