@@ -1,10 +1,9 @@
 import React from "react";
-import "./SearchBar.css";
 
 const SearchBar = () => {
   return (
     <div className="search-container">
-      <h1 className="title">Website</h1>
+      <h1 className="title">The Drawer Boy</h1>
       <div className="search-bar">
         <span className="icon">🔍</span>
         <input type="text" placeholder="Search..." className="input" />
