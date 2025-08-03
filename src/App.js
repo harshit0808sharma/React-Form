@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import './App.css';
-import { SearchBar } from "./SearchBar";
-const App = () => {
-  
-  return(
-    <>
-      <SearchBar/>
-    </>
+import React from "react";
+import SearchBar from "./SearchBar"; // since it's in the same folder
+
+function App() {
+  return (
+    <div>
+      <SearchBar />
+    </div>
   );
-};
+}
+
 export default App;
